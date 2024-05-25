@@ -11,6 +11,7 @@ function charCount($line)
   return array($char_count, $char_count_without_spaces);
 }
 
+
 function WCSimulation($html_file)
 {
   $total_tokens = 0;
@@ -158,6 +159,6 @@ if (isset($_FILES["html_file"]["tmp_name"])) {
     $cyclomaticComplexity = calculateCyclomaticComplexity($php_code);
     echo "Cyclomatic Complexity: $cyclomaticComplexity";
   } else {
-    echo "Upload an HTML file.";
+    echo "Upload an HTML file";
   }
 }
