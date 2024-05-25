@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>220103020</title>
+    <style>
+      body {
+        align-items: center;
+        background-color: #cff8f8;
+      }
+      .cont {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 40px;
+        height: 900px;
+        margin: 20px;
+        padding: 20px;
+        border-radius: 5px;
+        background-color: #cff8f8;
+      }
+
+      h1 {
+        text-align: center;
+        margin-bottom: 100px;
+      }
+
+      .op {
+        margin-top: 20px;
+        padding: 20px;
+        background-color: #cff8f8;
+        border-radius: 5px;
+      }
+
+      .op p {
+        margin: 0 0 10px 0;
+        line-height: 3;
+      }
+      button[type="submit"] {
+        align-items: center;
+        margin-top: 100px;
+        margin-left: 50px;
+        font-size: 40px;
+        border: 3px solid black;
+        border-radius: 10px;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="cont">
+      <h1>Word Count</h1>
+      <form
+        action="220103020_lab10.php"
+        method="post"
+        enctype="multipart/form-data"
+      >
+        <label for="html_file">Upload File</label>
+        <br />
+        <input
+          type="file"
+          id="html_file"
+          name="html_file"
+          accept=".html, .htm"
+        />
+        <br />
+        <button type="submit" name="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
