@@ -5,6 +5,7 @@ This PHP script provides functionality to count words, characters, and HTML elem
 # About
 This project is a lab assignment for the course Web Technology (CS2015) taught by Dr Navanath Saharia at the Indian Institute of Information Technology (IIIT), Manipur. It is designed to demonstrate the practical application of web development technologies like HTML, CSS, and PHP.
 
+
 ## Features
 
 1. **Word and Character Count**: The script counts the total number of words (tokens) and characters (with and without spaces) in the uploaded HTML file.
@@ -28,6 +29,10 @@ This project is a lab assignment for the course Web Technology (CS2015) taught b
   - User-defined function call counts in a table
   - Halstead metrics
   - Cyclomatic complexity
+
+![image](https://github.com/gan3xh/CS2015_lab10_SLOC/assets/157221663/d41f2046-46bb-4eac-a09f-bf6576ed97d3)
+![image](https://github.com/gan3xh/CS2015_lab10_SLOC/assets/157221663/2217727b-c040-4f59-b178-b75d406bc2e8)
+
 
 ## Requirements
 
